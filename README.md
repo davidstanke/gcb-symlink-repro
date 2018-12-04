@@ -1,5 +1,5 @@
 # Repro of Cloud Build error when source contains symlink
-(Cloud Build)[https://cloud.google.com/cloud-build/] will reproducibly fail if the source tree contains a symlink. This repo provides a reproduction...
+[Cloud Build](https://cloud.google.com/cloud-build/) will reproducibly fail if the source tree contains a symlink. This repo provides a reproduction...
 
 ## Working example:
 `gcloud builds submit --config=cloudbuild.yaml ./nosymlink`
